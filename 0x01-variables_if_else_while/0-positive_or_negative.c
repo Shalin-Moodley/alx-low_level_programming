@@ -2,13 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - Prints number
-* Return: Always
-*
-*/
+ * main - Prints number
+ * Return: Always
+ *
+ */
 int main(void)
 {
-int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
@@ -21,6 +20,7 @@ printf("%d is zero\n", n);
 }
 else
 {
-("%d is negative\n", n);
+print("%d is negative\n", n);
 }
 return (0);
+}
