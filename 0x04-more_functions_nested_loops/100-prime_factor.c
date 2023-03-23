@@ -1,9 +1,11 @@
-#include "main.h"
+#include <stdio.h>
 #include <math.h>
+
 /**
  * main - prints largest prime factor
  * Return: Always 0
  */
+
 int main(void)
 
 {
