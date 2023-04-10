@@ -1,10 +1,13 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
+#include <unistd.h>
 
+/**
+ * _putchar - writes c to stdout
+ * @c: character
+ * Return: 1
+ */
 int _putchar(char c)
 {
-	return putchar(c);
+	return (write(1, &c, 1));
 }
