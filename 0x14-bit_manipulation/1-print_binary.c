@@ -24,6 +24,4 @@ if (leading_zeroes)
 {
 putchar('0');
 }
-
-putchar('\n');
 }
