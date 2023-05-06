@@ -2,13 +2,13 @@
 #include <stdlib.h>
 
 /**
- * set_bit - sets a bit
+ * clear_bit - sets a bit
  * @n: pointer
  * @index: index
  * Return: 1 for success, -1 for failure
  */
 
-int set_bit(unsigned long int *n, unsigned int index)
+int clear_bit(unsigned long int *n, unsigned int index)
 {
 unsigned long int mask = ~(1UL << index);
 
