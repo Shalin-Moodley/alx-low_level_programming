@@ -1,5 +1,9 @@
+#include "main.h"
 #include <stdio.h>
-
+/**
+ * print_binary - prints the binary version of decimal number
+ * @n: number to be  printed in binary
+ */
 void print_binary(unsigned long int n)
 {
 unsigned long int mask = 1UL << (sizeof(unsigned long int) * 8 - 1);
